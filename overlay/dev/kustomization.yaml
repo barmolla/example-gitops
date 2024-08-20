@@ -4,5 +4,6 @@ bases:
   - ../../base
 images:
   - name: example-app-image
-    newName: image-registry.openshift-image-registry.svc:5000/openshift/python
+    #newName: image-registry.openshift-image-registry.svc:5000/openshift/devfile-sample-python-basic
+    newName: registry-nexus.apps.cluster-cjq7m.cjq7m.sandbox1718.opentlc.com/demo-java17-springboot3
     newTag: "latest"
