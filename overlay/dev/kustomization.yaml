@@ -4,5 +4,5 @@ bases:
   - ../../base
 images:
   - name: example-app-image
-    newName: registry-nexus.apps.cluster-cjq7m.cjq7m.sandbox1718.opentlc.com/hello-world
+    newName: registry-nexus.apps.cluster-cjq7m.cjq7m.sandbox1718.opentlc.com/demo-java17-springboot3
     newTag: "latest"
